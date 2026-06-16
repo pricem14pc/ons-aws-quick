@@ -26,7 +26,7 @@ graph TD
 ## 3. Accessibility  Constraints
 The AI agent must structurally guarantee compliant accessibility out-of-the-box.
 * **Keyboard Navigation**: The entire widget must be navigable using standard tabular focus (`Tab`, `Shift+Tab`) and integrate with the existing host page components seamlessly.
-* **Focus Management**: Opening the chat panel shifts focus directly to the text input box; closing it returns focus immediately to the FAB.
+* **Focus Management**: Opening the chat panel shifts focus directly to the text input box; closing it returns focus immediately to the host page.
 * **Screen Readers**:
   * Refer to the ONS Design System accessibility guidelines for ARIA roles and properties.
   * The main panel must use `role="complementary"`.
